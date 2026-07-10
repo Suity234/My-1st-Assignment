@@ -30,3 +30,24 @@ body {
     text-decoration: none;
     border-radius: 6px;
 }
+.hero {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.hero-btn {
+    background-color: #f97316;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+}
