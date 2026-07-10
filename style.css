@@ -2,3 +2,31 @@ body {
     margin: 0;
     font-family: Arial, sans-serif ;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 80px;
+    background-color: #111827;
+    color: white;
+}
+.logo {
+    margin: 0;
+    font-size: 24px;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+.nav-btn {
+    background-color: #f97316;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
