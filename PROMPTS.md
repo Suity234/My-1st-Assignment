@@ -1,0 +1,2 @@
+Prompt:
+Create a relevant extra section for a DevConf 2026 landing page. The section should fit a technology conference theme and use only HTML and CSS. I want the section to be an FAQ section with three common questions and short answers for visitors.
