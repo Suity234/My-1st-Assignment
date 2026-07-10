@@ -87,3 +87,56 @@ body {
     color: #f97316;
     font-weight: bold; 
 }
+.pricing {
+    padding: 80px;
+    text-align: center;
+    background-color: white;
+}
+.pricing h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.pricing-subtitle {
+    color: #6b7280;
+    margin-bottom: 40px;
+}
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.pricing-card {
+    background-color: #f9fafb;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+.pricing-card h3 {
+    font-size: 24px;
+}
+.price {
+    font-size: 36px;
+    font-weight: bold;
+    color: #111827;
+}
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.pricing-card li {
+    margin: 12px 0;
+}
+.featured {
+    background-color: #111827;
+    color: white;
+}
+.featured .price {
+    color: white;
+}
+.price-btn {
+    background-color: #f97316;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
