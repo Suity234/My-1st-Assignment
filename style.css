@@ -6,29 +6,48 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 80px;
+    padding: 18px 90px;
+    background-color: white;
+    color: #111827;
+}
+.logo-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-icon {
     background-color: #111827;
-    color: white;
+    color: #2563eb;
+    padding: 7px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
 }
 .logo {
     margin: 0;
-    font-size: 24px;
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: bold;
 }
+
 .menu {
     display: flex;
     gap: 30px;
     list-style: none;
 }
 .menu a {
-    color: white;
+    color: #111827;
     text-decoration: none;
+    font-size: 13px;
 }
 .nav-btn {
-    background-color: #f97316;
+    background-color: #2563eb;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 28px;
     text-decoration: none;
     border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
 }
 .hero {
     background:
@@ -38,25 +57,24 @@ body {
     background-position: center;
     color: white;
     text-align: center;
-    padding: 140px 20px;
+    padding: 110px 20px;
 }
 .hero h1 {
-    font-size: 64px;
+    font-size: 58px;
     margin-bottom: 20px;
 }
 .hero p {
-    font-size: 20px;
+    font-size: 18px;
     max-width: 700px;
-    margin: 0 auto 35px;
-    line-height: 1.5;
+    margin: 0 auto 100px;
+    line-height: 1.4;
 }
 .hero-btn {
     background-color: #2563eb;
-    font-size: 20px;
     color: white;
-    padding: 16px 35px;
+    padding: 18px 45px;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 6px;
     font-weight: bold;
 }
 .speakers {
@@ -206,6 +224,24 @@ footer {
 .footer-logo {
     margin: 0;
     font-size: 24px;
+}
+.footer-logo-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-logo-icon {
+    background-color: white;
+    color: #2563eb;
+    padding: 7px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.footer-logo {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.1;
 }
 .social-links a {
     color: white;
